@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parando2_0: 7001438044503368119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

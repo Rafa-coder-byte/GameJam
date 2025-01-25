@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      corriendo3_0: -6817532742796844139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

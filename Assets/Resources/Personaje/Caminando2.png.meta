@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Caminando2_0: 5894711821045829309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
