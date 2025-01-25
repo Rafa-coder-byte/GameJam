@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9ee6bdeb6966a5b4c8c29c886fbca70b
+guid: 3c5457946c5b26444947f9ed9a4bcdca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8527977852601734216
-    second: garbage-bag_0
+      213: -8459773425282501114
+    second: Recurso 1 (5)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: garbage-bag_0
+      name: Recurso 1 (5)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 18
-        width: 306
-        height: 339
+        x: 0
+        y: 0
+        width: 141
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84499bc7ca6795670800000000000000
-      internalID: 8527977852601734216
+      spriteID: 6063fb934e8d89a80800000000000000
+      internalID: -8459773425282501114
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      garbage-bag_0: 8527977852601734216
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
