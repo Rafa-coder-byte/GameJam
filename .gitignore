@@ -1,0 +1,47 @@
+# Este archivo .gitignore debe colocarse en la raíz del directorio de tu proyecto de Unity
+
+# Archivos generados por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset Bundles
+*.assetbundle
+*.unitypackage
+
+# Archivos de proyecto generados automáticamente por VS/VSCode/JetBrains Rider
+ExportedObj/
+.consulo/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos de metadatos generados por Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Archivos creados por IDEs y sistemas operativos
+.DS_Store
+*.swp
+*.lock
+*~.nib
+.idea/
+.vscode/
