@@ -3,34 +3,40 @@ using UnityEngine;
 
 public class WaterDamage : MonoBehaviour
 {
+    public PlayerHealth vidajugador;
+    public CapsuleCollider2D playercol;
     public int damageAmount = 10; // Cantidad de daño que el agua hace al personaje
     public float damageInterval = 1.0f; // Intervalo de tiempo entre cada daño
+    private bool isInWater = false;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !isInWater)
         {
-            // Inicia el daño continuo al personaje
-            StartCoroutine(DamagePlayer(other));
+            isInWater = true;
+            StartCoroutine(DamagePlayer());
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && isInWater)
         {
-            // Detiene el daño continuo al personaje
-            StopCoroutine(DamagePlayer(other));
+            isInWater = false;
         }
     }
 
-    private IEnumerator DamagePlayer(Collider2D player)
+    private IEnumerator DamagePlayer()
     {
-        while (true)
+        while (isInWater)
         {
-            // Aquí puedes llamar a un método en el script del personaje para aplicar el daño
-            player.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
+            vidajugador.TakeDamage(damageAmount);
             yield return new WaitForSeconds(damageInterval);
         }
+    }
+
+    void Start()
+    {
+        playercol = vidajugador.GetComponent<CapsuleCollider2D>();
     }
 }
