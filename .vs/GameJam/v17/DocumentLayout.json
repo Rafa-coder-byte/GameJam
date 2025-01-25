@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\GitHub\\GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\camara_follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camara_follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\mar_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mar_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\da\u00F1oagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\camara_follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camara_follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\da\u00F1oagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\da\u00F1oagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Camara_Follow.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Camara_Follow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camara_Follow.cs",
@@ -87,8 +87,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Da\u00F1oAgua.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T07:53:27.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T07:53:27.657Z"
             },
             {
               "$type": "Document",
@@ -104,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Mar_Movement.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Mar_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mar_Movement.cs",
