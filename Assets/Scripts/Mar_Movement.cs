@@ -4,14 +4,68 @@ using UnityEngine;
 public class SeaMovement : MonoBehaviour
 {
     public float speed = 1f; // Velocidad de movimiento del mar
-    public float amplitude = 2f; // Amplitud del movimiento vertical
-    public float upperWaitTime = 6f; // Tiempo de espera en la posicion superior
-    public float lowerWaitTime = 3f; // Tiempo de espera en la posicion inferior
+    public float amplitude = 4f; // Amplitud del movimiento vertical
+    public float upperLimit = 1f; // Límite superior constante
+    public float upperWaitTime = 2f; // Tiempo de espera en la posición superior
+    public float lowerWaitTime = 3f; // Tiempo de espera en la posición inferior
 
     private Vector3 startPosition;
     private bool isWaiting = false;
 
-    void Awake()
+    void Start()
+    {
+        startPosition = transform.position;
+        StartCoroutine(MoveSea());
+    }
+
+    IEnumerator MoveSea()
+    {
+        while (true)
+        {
+            if (!isWaiting)
+            {
+                // Calcular la posición en la parte inferior usando amplitude
+                float newYPosition = upperLimit - Mathf.PingPong(Time.time * speed, amplitude);
+
+                transform.position = new Vector3(transform.position.x, startPosition.y + newYPosition, transform.position.z);
+
+                // Check for upper position wait
+                if (Mathf.Approximately(newYPosition, upperLimit))
+                {
+                    isWaiting = true;
+                    yield return new WaitForSeconds(upperWaitTime);
+                    isWaiting = false;
+                }
+                // Check for lower position wait
+                else if (Mathf.Approximately(newYPosition, upperLimit - amplitude))
+                {
+                    isWaiting = true;
+                    yield return new WaitForSeconds(lowerWaitTime);
+                    isWaiting = false;
+                }
+            }
+            yield return null;
+        }
+    }
+}
+
+
+
+
+/*using System.Collections;
+using UnityEngine;
+
+public class SeaMovement : MonoBehaviour
+{
+    public float speed = 1.5f; // Velocidad de movimiento del mar ajustada
+    public float amplitude = 10f; // Amplitud del movimiento vertical aumentada
+    public float upperWaitTime = 2f; // Tiempo de espera en la posición superior
+    public float lowerWaitTime = 3f; // Tiempo de espera en la posición inferior
+
+    private Vector3 startPosition;
+    private bool isWaiting = false;
+
+    void Start()
     {
         startPosition = transform.position;
         StartCoroutine(MoveSea());
@@ -46,74 +100,4 @@ public class SeaMovement : MonoBehaviour
     }
 }
 
-
-
-/*using System.Collections;
-using UnityEngine;
-
-public class MarMovement : MonoBehaviour
-{
-    public float alturaMovimiento = 0.5f;  // Altura mï¿½xima a la que el mar subirï¿½  
-    public float velocidadMovimiento = 1f;  // Velocidad del movimiento  
-    public float tiempoArriba = 2f;  // Tiempo en la posiciï¿½n alta  
-    public float tiempoAbajo = 5f;  // Tiempo en la posiciï¿½n baja  
-
-    private Vector3 posicionInicial;  // Para guardar la posiciï¿½n inicial del mar  
-
-    void Start()
-    {
-        // Guardar la posiciï¿½n inicial del objeto  
-        posicionInicial = transform.position;
-        // Iniciar el ciclo de movimiento  
-        StartCoroutine(MoverMar());
-    }
-
-    private IEnumerator MoverMar()
-    {
-        while (true) // Ciclo infinito  
-        {
-            // Subir el mar  
-            yield return StartCoroutine(SubirMar());
-            // Esperar tiempo en la parte alta  
-            yield return new WaitForSeconds(tiempoArriba);
-            // Bajar el mar  
-            yield return StartCoroutine(BajarMar());
-            // Esperar tiempo en la parte baja  
-            yield return new WaitForSeconds(tiempoAbajo);
-        }
-    }
-
-    private IEnumerator SubirMar()
-    {
-        float tiempoTranscurrido = 0f;
-        Vector3 posicionFinal = posicionInicial + new Vector3(0, alturaMovimiento, 0); // Nueva posiciï¿½n al subir  
-
-        // Movimiento hacia arriba  
-        while (tiempoTranscurrido < alturaMovimiento / velocidadMovimiento)
-        {
-            transform.position = Vector3.Lerp(posicionInicial, posicionFinal, tiempoTranscurrido / (alturaMovimiento / velocidadMovimiento));
-            tiempoTranscurrido += Time.deltaTime;
-            yield return null; // Esperar un frame  
-        }
-
-        // Asegurarse de que estï¿½ exactamente en la posiciï¿½n final  
-        transform.position = posicionFinal;
-    }
-
-    private IEnumerator BajarMar()
-    {
-        float tiempoTranscurrido = 0f;
-        Vector3 posicionFinal = posicionInicial; // Regresar a la posiciï¿½n inicial  
-
-        // Movimiento hacia abajo  
-        while (tiempoTranscurrido < alturaMovimiento / velocidadMovimiento)
-        {
-            transform.position = Vector3.Lerp(posicionFinal + new Vector3(0, alturaMovimiento, 0), posicionFinal, tiempoTranscurrido / (alturaMovimiento / velocidadMovimiento));
-            tiempoTranscurrido += Time.deltaTime;
-            yield return null; // Esperar un frame  
-        }
-
-        // Asegurarse de que estï¿½ en la posiciï¿½n inicial  
-        transform.position = posicionFinal;
-    }
-}*/
+*/
