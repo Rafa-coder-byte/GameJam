@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scenes/SampleScene.unity.meta
 guid: 8c9cfa26abfee488c85f1582747f6a02
+========
+guid: cf581b2c819435f4ba7946908b670859
+>>>>>>>> Stashed changes:Assets/Scripts/piedra1_0 (2).prefab.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
