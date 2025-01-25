@@ -1,22 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    private Rigidbody2D rb2d;
+    public float moveSpeed = 5f; // Velocidad de movimiento del jugador
+
+    private Rigidbody2D rb;
+    private Vector2 movement;
 
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        // Obtener la entrada del jugador (teclas W, A, S, D o flechas)
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+    }
 
-        Vector2 movement = new Vector2(moveHorizontal, rb2d.velocity.y);
-        rb2d.velocity = movement * moveSpeed;
+    void FixedUpdate()
+    {
+        // Mover al jugador
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
