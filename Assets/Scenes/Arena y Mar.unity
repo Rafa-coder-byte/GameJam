@@ -172,6 +172,10 @@ PrefabInstance:
       value: 'Mar_0 '
       objectReference: {fileID: 0}
     - target: {fileID: 6907995586704557382, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1483517878}
+    - target: {fileID: 6907995586704557382, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: playercol
       value: 
       objectReference: {fileID: 1483517872}
@@ -1908,7 +1912,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.97, y: 0.2, z: 60}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3280,6 +3284,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1566197698091751777, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566197698091751777, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566197698091751777, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.11
       objectReference: {fileID: 0}
@@ -3319,6 +3331,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1846321094756820989, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1483517879}
+    - target: {fileID: 1846321094756820989, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 1483517870}
     - target: {fileID: 3310193585816579925, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
       propertyPath: m_Name
       value: Personaje
@@ -3326,7 +3346,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3310193585816579925, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483517881}
   m_SourcePrefab: {fileID: 100100000, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
 --- !u!1 &1483517870 stripped
 GameObject:
@@ -3343,6 +3366,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1566197698091751777, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
   m_PrefabInstance: {fileID: 1483517869}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1483517878 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1846321094756820989, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+  m_PrefabInstance: {fileID: 1483517869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483517870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e0e8a27f3079a4b81dfa5946c43414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1483517879 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3524191027496904316, guid: f8c5dcf1f5c7ed442b159ab67b4d77b6, type: 3}
+  m_PrefabInstance: {fileID: 1483517869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1483517881
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483517870}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 26842c251786c3840bd3326e60d5a51e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1518140726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3790,11 +3851,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4090730701571451170, guid: 6932910e9cb6b75448eda8c58cd8aaab, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -96.3
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 4090730701571451170, guid: 6932910e9cb6b75448eda8c58cd8aaab, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 87.3
+      value: 141
       objectReference: {fileID: 0}
     - target: {fileID: 7912522083835436338, guid: 6932910e9cb6b75448eda8c58cd8aaab, type: 3}
       propertyPath: m_Name

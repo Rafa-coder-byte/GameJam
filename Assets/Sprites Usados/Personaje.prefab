@@ -79,8 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.21960784, g: 0.21960784, b: 0.81960785, a: 1}
+  m_Sprite: {fileID: 8547183205422863837, guid: 735a99667de987f48b52c341b0bb4f44, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  jugador: {fileID: 0}
 --- !u!70 &1250279257547069325
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
