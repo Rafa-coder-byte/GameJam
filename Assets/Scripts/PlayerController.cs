@@ -20,22 +20,12 @@ public class PlayerController : MonoBehaviour
             if (hitCollider.gameObject.CompareTag("Collectible"))
             {
                 score++;
-                Debug.Log("Objeto recogido! Puntaje: " + score);
                 hitCollider.gameObject.SetActive(false);
             }
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Collectible"))
-        {
-            score++;
-            Debug.Log("Objeto recogido! Puntaje: " + score);
-            Destroy(other.gameObject);
-        }
-    }
-
+    
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

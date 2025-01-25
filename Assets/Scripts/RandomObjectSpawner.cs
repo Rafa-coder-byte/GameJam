@@ -1,13 +1,16 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RandomObjectSpawner : MonoBehaviour
 {
     public GameObject objectToSpawn;
+    public Text garbageCounterText;
+    public Vector3 textOffset = new Vector3(0, 2f, 0);
     public Vector2 areaMin;
     public Vector2 areaMax;
     public int numberOfObjects = 10;
-    public float deleteDistance = 2f; // Distancia para eliminar objetos
+    public float deleteDistance = 0.3f; // Distancia para eliminar objetos
     public List<Vector2> spawnedPositions = new List<Vector2>();
     private List<GameObject> spawnedObjects = new List<GameObject>();
     private Transform playerTransform;
@@ -24,6 +27,7 @@ public class RandomObjectSpawner : MonoBehaviour
     {
         CheckDistanceToPlayer();
         Check_Garbage_Counter();
+        UpdateGarbageCounterPosition();
     }
 
     void SpawnObjects()
@@ -43,6 +47,16 @@ public class RandomObjectSpawner : MonoBehaviour
     void Check_Garbage_Counter(){
         if(destroyed_garbage == numberOfObjects){
             Application.Quit();
+        }
+    }
+    void UpdateGarbageCounterPosition()
+    {
+        if (garbageCounterText != null && playerTransform != null)
+        {
+            // Convert player position to screen position
+            Vector3 screenPos = Camera.main.WorldToScreenPoint(playerTransform.position + textOffset);
+            garbageCounterText.transform.position = screenPos;
+            garbageCounterText.text = "Garbage: " + destroyed_garbage.ToString() + "/" + numberOfObjects.ToString();
         }
     }
 
