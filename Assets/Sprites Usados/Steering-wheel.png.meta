@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Steering-wheel_0: -4876276919152016459
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

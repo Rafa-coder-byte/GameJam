@@ -45,4 +45,5 @@ ExportedObj/
 *~.nib
 .idea/
 .vscode/
-Assets/Scripts/antisquare.cs
+
+.fake
