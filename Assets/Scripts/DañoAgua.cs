@@ -4,12 +4,15 @@ using UnityEngine;
 public class WaterDamage : MonoBehaviour
 {
     public PlayerHealth vidajugador;
+    public PlayerMovement player;
     public CapsuleCollider2D playercol;
     public int damageAmount = 10; // Cantidad de daño que el agua hace al personaje
     public float damageInterval = 1.0f; // Intervalo de tiempo entre cada daño
     private bool isInWater = false;
-    void Start(){
-        if(vidajugador == null){
+    void Start()
+    {
+        if (vidajugador == null)
+        {
             vidajugador = GameObject.FindGameObjectsWithTag("Player")[0].GetComponent<PlayerHealth>();
             playercol = vidajugador.GetComponent<CapsuleCollider2D>();
         }
@@ -40,5 +43,5 @@ public class WaterDamage : MonoBehaviour
         }
     }
 
-    
+
 }
