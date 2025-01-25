@@ -21,8 +21,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        // Lógica para cuando el personaje muere
+        // Lï¿½gica para cuando el personaje muere
         Debug.Log("El personaje ha muerto.");
-        // Aquí puedes añadir la lógica para reiniciar el nivel o mostrar una pantalla de Game Over
+        // Aquï¿½ puedes aï¿½adir la lï¿½gica para reiniciar el nivel o mostrar una pantalla de Game Over
     }
 }

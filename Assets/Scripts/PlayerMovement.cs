@@ -12,16 +12,15 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        // Obtener la entrada del jugador (teclas W, A, S, D o flechas)
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
-    }
 
     void FixedUpdate()
     {
-        // Mover al jugador
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if(Input.GetKeyDown(KeyCode.Space)){
+            rb.position = new Vector3(-0.61751f , 2.622866f , 0.03833227f);
+        }
+        
     }
 }
