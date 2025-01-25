@@ -12,6 +12,8 @@ public class RandomObjectSpawner : MonoBehaviour
     private List<GameObject> spawnedObjects = new List<GameObject>();
     private Transform playerTransform;
     public int destroyed_garbage = 0;
+    public TrashCounter trashCounter;
+
 
     void Start()
     {
@@ -57,6 +59,7 @@ public class RandomObjectSpawner : MonoBehaviour
                 {
                     Destroy(spawnedObjects[i]);
                     destroyed_garbage += 1;
+                    trashCounter.IncrementTrashCount();
                     Debug.Log(destroyed_garbage);
                     spawnedObjects.RemoveAt(i);
                     spawnedPositions.RemoveAt(i);

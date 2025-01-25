@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private int score = 0;
+    public TrashCounter trashCounter;
 
     void Update()
     {
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
             if (hitCollider.gameObject.CompareTag("Collectible"))
             {
                 score++;
+                trashCounter.IncrementTrashCount();
                 Debug.Log("Objeto recogido! Puntaje: " + score);
                 hitCollider.gameObject.SetActive(false);
             }
@@ -31,6 +33,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Collectible"))
         {
             score++;
+            trashCounter.IncrementTrashCount();
             Debug.Log("Objeto recogido! Puntaje: " + score);
             Destroy(other.gameObject);
         }
