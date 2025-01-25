@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ff9c4692687d2f4ca2fe15beeef403f
+guid: 9ee6bdeb6966a5b4c8c29c886fbca70b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5562969981175484424
-    second: piedra1_0
+      213: 8527977852601734216
+    second: garbage-bag_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: piedra1_0
+      name: garbage-bag_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 92
-        height: 93
+        x: 21
+        y: 18
+        width: 306
+        height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 800502859b3a33d40800000000000000
-      internalID: 5562969981175484424
+      spriteID: 84499bc7ca6795670800000000000000
+      internalID: 8527977852601734216
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      piedra1_0: 5562969981175484424
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
