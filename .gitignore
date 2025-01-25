@@ -45,3 +45,5 @@ ExportedObj/
 *~.nib
 .idea/
 .vscode/
+
+.fake
