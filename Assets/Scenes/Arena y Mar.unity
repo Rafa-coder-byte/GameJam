@@ -482,9 +482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &116235070
 Rigidbody2D:
   serializedVersion: 4
@@ -676,9 +673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &118982578
 Rigidbody2D:
   serializedVersion: 4
@@ -855,9 +849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &143005830
 Rigidbody2D:
   serializedVersion: 4
@@ -1017,6 +1008,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 287786213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &145768673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145768676}
+  - component: {fileID: 145768675}
+  - component: {fileID: 145768674}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &145768674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145768673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &145768675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145768673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &145768676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145768673}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &152922370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,9 +1123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &152922373
 Rigidbody2D:
   serializedVersion: 4
@@ -1243,9 +1299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &189475968
 Rigidbody2D:
   serializedVersion: 4
@@ -1668,9 +1721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &306210759
 Rigidbody2D:
   serializedVersion: 4
@@ -1862,9 +1912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &312134557
 Rigidbody2D:
   serializedVersion: 4
@@ -2056,9 +2103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &434529662
 Rigidbody2D:
   serializedVersion: 4
@@ -2316,9 +2360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &640719377
 Rigidbody2D:
   serializedVersion: 4
@@ -2526,9 +2567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &696859556
 Rigidbody2D:
   serializedVersion: 4
@@ -2941,9 +2979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &769038492
 Rigidbody2D:
   serializedVersion: 4
@@ -3236,9 +3271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &919444438
 Rigidbody2D:
   serializedVersion: 4
@@ -3430,9 +3462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &922811233
 Rigidbody2D:
   serializedVersion: 4
@@ -3711,9 +3740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1267976181
 Rigidbody2D:
   serializedVersion: 4
@@ -4088,6 +4114,50 @@ PolygonCollider2D:
       - {x: -2.03, y: -1.5899999}
       - {x: -2.03, y: -1.65}
   m_UseDelaunayMesh: 0
+--- !u!1 &1368374652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1368374654}
+  - component: {fileID: 1368374653}
+  m_Layer: 0
+  m_Name: scenecontroller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1368374653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368374652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 023e4e0dab025054fad09239793466a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1368374654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368374652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.77183, y: 1.0674127, z: 3.0702062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377110343
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,9 +4444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1429720454
 Rigidbody2D:
   serializedVersion: 4
@@ -4553,9 +4620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1435768016
 Rigidbody2D:
   serializedVersion: 4
@@ -4747,9 +4811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1518140728
 Rigidbody2D:
   serializedVersion: 4
@@ -4986,9 +5047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1619962032
 Rigidbody2D:
   serializedVersion: 4
@@ -5324,9 +5382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1748134413
 Rigidbody2D:
   serializedVersion: 4
@@ -6330,9 +6385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1814501662
 Rigidbody2D:
   serializedVersion: 4
@@ -6524,9 +6576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1841954161
 Rigidbody2D:
   serializedVersion: 4
@@ -7077,9 +7126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &1867803975
 Rigidbody2D:
   serializedVersion: 4
@@ -7333,7 +7379,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1917623452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7688,9 +7734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &2004131757
 Rigidbody2D:
   serializedVersion: 4
@@ -8000,9 +8043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &2054168339
 Rigidbody2D:
   serializedVersion: 4
@@ -8194,9 +8234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c985ec5305825cf4aabaf5d1393556c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockName: Piedra
-  size: 1
-  weight: 5
 --- !u!50 &2082857470
 Rigidbody2D:
   serializedVersion: 4
@@ -8943,3 +8980,5 @@ SceneRoots:
   - {fileID: 1717910971}
   - {fileID: 1699728079}
   - {fileID: 1810518945}
+  - {fileID: 1368374654}
+  - {fileID: 145768676}
