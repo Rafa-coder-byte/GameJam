@@ -6,7 +6,7 @@ public class WaterDamage : MonoBehaviour
     public PlayerHealth vidajugador;
     public PlayerMovement player;
     public CapsuleCollider2D playercol;
-    public int damageAmount = 10; // Cantidad de daño que el agua hace al personaje
+    public int damageAmount = 1; // Cantidad de daño que el agua hace al personaje
     public float damageInterval = 1.0f; // Intervalo de tiempo entre cada daño
     private bool isInWater = false;
     void Start()
