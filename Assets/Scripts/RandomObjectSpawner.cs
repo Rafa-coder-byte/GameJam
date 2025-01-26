@@ -15,6 +15,8 @@ public class RandomObjectSpawner : MonoBehaviour
     public int destroyed_garbage = 0;
     public TrashCounter trashcount;
     public bool onetime=true;
+    public AudioSource audioSource;
+    public AudioClip pickupSound;
 
 
     void Start()
@@ -66,6 +68,7 @@ public class RandomObjectSpawner : MonoBehaviour
                 if (distance < deleteDistance)
                 {
                     Destroy(spawnedObjects[i]);
+                    audioSource.Play();
                     destroyed_garbage += 1;
                     Debug.Log(destroyed_garbage);
 
