@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 606682019334964227, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_Size.y
-      value: 16.675152
+      value: 16.675241
       objectReference: {fileID: 0}
     - target: {fileID: 2898163443316048826, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -141,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2898163443316048826, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.4428
+      value: 11.442751
       objectReference: {fileID: 0}
     - target: {fileID: 2898163443316048826, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -180,12 +180,20 @@ PrefabInstance:
       value: 'Mar_0 '
       objectReference: {fileID: 0}
     - target: {fileID: 3638851652963164661, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
+      propertyPath: m_Size.y
+      value: 15.723663
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638851652963164661, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.2301321
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638851652963164661, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 82.94183
       objectReference: {fileID: 0}
     - target: {fileID: 3638851652963164661, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 16.675152
+      value: 16.675241
       objectReference: {fileID: 0}
     - target: {fileID: 6795705564592153993, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_Size.x
@@ -193,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6795705564592153993, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_Size.y
-      value: 1.0107336
+      value: 1.0006154
       objectReference: {fileID: 0}
     - target: {fileID: 6907995586704557382, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: player
@@ -217,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7665836048630544569, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.7933
+      value: -8.79795
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6980721780634574611, guid: 97206e264a567c648b630ccb9e13a67b, type: 3}
@@ -2281,7 +2289,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5908,6 +5916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5792b96508e10be4c8fede0d77cb914e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audio_collision: {fileID: 8300000, guid: 329ae80ede0abdf40b2280e4cd9e3837, type: 3}
 --- !u!1 &1811377582
 GameObject:
   m_ObjectHideFlags: 0
@@ -9166,11 +9175,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5304017604670215466, guid: 396dff0fe95b40e4ab13de3a0d946694, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.585155
+      value: -5.4
       objectReference: {fileID: 0}
     - target: {fileID: 5304017604670215466, guid: 396dff0fe95b40e4ab13de3a0d946694, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.653557
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5304017604670215466, guid: 396dff0fe95b40e4ab13de3a0d946694, type: 3}
       propertyPath: m_LocalPosition.z
