@@ -8,10 +8,6 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    public void Menuu()
-    {
-        SceneManager.LoadScene(0);
-    }
     public void Quit()
     {
         Debug.Log("Saliendo...");

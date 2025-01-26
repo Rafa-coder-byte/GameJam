@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d8efa406dbfa534da41391f54e808ab
+guid: 48de528da42e3284b86bc01a9ca65d16
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 386223467436708144
-    second: Small-bomb_0
+      213: -5168228057612586181
+    second: Escena1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Small-bomb_0
+      name: Escena1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 138
-        height: 153
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0311c7482342c5500800000000000000
-      internalID: 386223467436708144
+      spriteID: b337bcbc6f3c648b0800000000000000
+      internalID: -5168228057612586181
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Small-bomb_0: 386223467436708144
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

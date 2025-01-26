@@ -73,6 +73,7 @@ public class PlayerHealth : MonoBehaviour
     void PlayerDied()
     {
         menuboton.gameObject.SetActive(true);
+        menuboton.GetComponent<Button>().enabled = true;
         gameover.gameObject.SetActive(true);
         Debug.Log("El jugador ha muerto!");
         player.gameObject.SetActive(false);
