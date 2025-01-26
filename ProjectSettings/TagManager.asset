@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collectible
   - Garbage
+  - DamageObject
   layers:
   - Default
   - TransparentFX

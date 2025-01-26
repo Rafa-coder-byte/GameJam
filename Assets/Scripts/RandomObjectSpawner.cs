@@ -6,14 +6,15 @@ public class RandomObjectSpawner : MonoBehaviour
     public GameObject objectToSpawn;
     public Vector2 areaMin;
     public Vector2 areaMax;
- // Distancia para eliminar objetos
 
     public int numberOfObjects;
     public float deleteDistance = 0.3f; // Distancia para eliminar objetos
+
     public List<Vector2> spawnedPositions = new List<Vector2>();
     private List<GameObject> spawnedObjects = new List<GameObject>();
     private Transform playerTransform;
     public int destroyed_garbage = 0;
+    public TrashCounter trashcount;
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class RandomObjectSpawner : MonoBehaviour
         Check_Garbage_Counter();
     }
 
-    public void SpawnObjects()
+    void SpawnObjects()
     {
         
         for (int i = 0; i < numberOfObjects; i++)
@@ -60,6 +61,7 @@ public class RandomObjectSpawner : MonoBehaviour
                     Destroy(spawnedObjects[i]);
                     destroyed_garbage += 1;
                     Debug.Log(destroyed_garbage);
+                    trashcount.IncrementTrashCount();
                     spawnedObjects.RemoveAt(i);
                     spawnedPositions.RemoveAt(i);
                 }

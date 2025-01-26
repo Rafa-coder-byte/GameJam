@@ -3,40 +3,68 @@
   "WorkspaceRootPath": "D:\\GitHub\\GameJam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\buble_damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buble_damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\mar_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mar_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\piedras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\piedras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\GameJam\\Assets\\Scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\randomobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\GameJam\\Library\\PackageCache\\com.unity.ugui@2.0.0\\Runtime\\TMP\\TextMeshProUGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@2.0.0\\Runtime\\TMP\\TextMeshProUGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\gestorbasura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gestorbasura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\mar_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mar_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\da\u00F1oagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\da\u00F1oagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\randomobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\camara_follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camara_follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\GameJam\\Assets\\Scripts\\BubbleDamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BubbleDamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +82,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RandomObjectSpawner.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomObjectSpawner.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RandomObjectSpawner.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAIBQwEUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Buble_Damage.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Buble_Damage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Buble_Damage.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Buble_Damage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Buble_Damage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:48:32.991Z",
+              "WhenOpened": "2025-01-26T04:06:16.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BubbleDamage.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\BubbleDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BubbleDamage.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\BubbleDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BubbleDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:53:23.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "move.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\move.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\move.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\move.cs",
+              "RelativeToolTip": "Assets\\Scripts\\move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:47:05.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GestorBasura.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\GestorBasura.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GestorBasura.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\GestorBasura.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GestorBasura.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:14:36.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Boss.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Boss.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:24:33.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TextMeshProUGUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Library\\PackageCache\\com.unity.ugui@2.0.0\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@2.0.0\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Library\\PackageCache\\com.unity.ugui@2.0.0\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@2.0.0\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAYwB0BAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:00:30.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:58:24.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:59:32.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Da\u00F1oAgua.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Da\u00F1oAgua.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Da\u00F1oAgua.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Da\u00F1oAgua.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Da\u00F1oAgua.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Title": "RandomObjectSpawner.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomObjectSpawner.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomObjectSpawner.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T07:53:27.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:48:32.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Mar_Movement.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Mar_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mar_Movement.cs",
@@ -88,34 +200,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Mar_Movement.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T07:12:12.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T07:12:12.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
               "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:04:08.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:59:32.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:04:08.581Z"
             },
             {
               "$type": "Document",
@@ -127,38 +224,47 @@
               "RelativeToolTip": "Assets\\Scripts\\piedras.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T07:49:26.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T07:49:26.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "TrashCounter.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TrashCounter.cs",
               "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\TrashCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:08:08.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T20:08:08.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "Da\u00F1oAgua.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Da\u00F1oAgua.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Da\u00F1oAgua.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Da\u00F1oAgua.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Da\u00F1oAgua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T07:53:27.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:05:01.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:05:01.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Camara_Follow.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Camara_Follow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camara_Follow.cs",
