@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vecteezy_futuristic-technological-grid-background-digital-futurist_7207818_0: 5769830879121917283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,12 @@
 using UnityEngine;
-using TMPro; // Asegúrate de tener esto para usar TextMeshPro
+using TMPro; // Asegï¿½rate de tener esto para usar TextMeshPro
 
 public class TrashCounter : MonoBehaviour
-{
+
+{   
     public TextMeshProUGUI trashText; // Cambiar a TextMeshProUGUI
-    private int trashCount = 0;
+    public int trashCount ;
+    private RandomObjectSpawner spawner;
 
     public int TrashCount // Propiedad para acceder a trashCount
     {
@@ -14,10 +16,11 @@ public class TrashCounter : MonoBehaviour
     void Start()
     {
         // Asegurarse de que el texto inicial se muestra
+        trashCount = 0;
         trashText.text = "Basura Recogida: " + trashCount;
     }
 
-    // Método para incrementar el contador de basura
+    // Mï¿½todo para incrementar el contador de basura
     public void IncrementTrashCount()
     {
         trashCount++;
@@ -28,8 +31,11 @@ public class TrashCounter : MonoBehaviour
         if (gestorDeBasura != null)
         {
             gestorDeBasura.VerificarYActivarBoss();
+            
         }
     }
 }
+
+
 
 

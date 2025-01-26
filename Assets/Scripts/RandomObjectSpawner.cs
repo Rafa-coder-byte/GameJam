@@ -32,7 +32,7 @@ public class RandomObjectSpawner : MonoBehaviour
         UpdateGarbageCounterPosition();
     }
 
-    void SpawnObjects()
+    public void SpawnObjects()
     {
         
         for (int i = 0; i < numberOfObjects; i++)
