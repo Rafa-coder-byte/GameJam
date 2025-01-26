@@ -101,10 +101,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  garbagePrefab: {fileID: 0}
+  garbagePrefab: {fileID: 7316309393000381383, guid: ea47c2962072b8541a879833e3ea1597, type: 3}
   throwForce: 10
   throwCooldown: 2
-  garsbageDamge: 5
+  garbageDamage: 5
 --- !u!50 &6458148697799385821
 Rigidbody2D:
   serializedVersion: 4
