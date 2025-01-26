@@ -14,23 +14,35 @@ public class RandomObjectSpawner : MonoBehaviour
     private Transform playerTransform;
     public int destroyed_garbage = 0;
     public TrashCounter trashcount;
+    public bool onetime=true;
+
 
     void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        numberOfObjects = 50;
+        numberOfObjects = 30;
         SpawnObjects();
     }
 
     void Update()
     {
         CheckDistanceToPlayer();
-        Check_Garbage_Counter();
+    //      Check_Garbage_Counter();
+
+        if (onetime && trashcount.ronda) {
+            onetime = false;
+            destroyed_garbage = 0;
+            SpawnObjects();
+            
+        }
     }
 
     void SpawnObjects()
     {
-        
+        // Limpia las posiciones y objetos generados previamente
+        spawnedPositions.Clear();
+        spawnedObjects.Clear();
+
         for (int i = 0; i < numberOfObjects; i++)
         {
             float randomX = Random.Range(areaMin.x, areaMax.x);
@@ -42,11 +54,7 @@ public class RandomObjectSpawner : MonoBehaviour
             spawnedObjects.Add(spawnedObject);
         }
     }
-    void Check_Garbage_Counter(){
-        if(destroyed_garbage == numberOfObjects){
-            Application.Quit();
-        }
-    }
+ 
 
     void CheckDistanceToPlayer()
     {
@@ -60,6 +68,7 @@ public class RandomObjectSpawner : MonoBehaviour
                     Destroy(spawnedObjects[i]);
                     destroyed_garbage += 1;
                     Debug.Log(destroyed_garbage);
+
                     trashcount.IncrementTrashCount();
                     spawnedObjects.RemoveAt(i);
                     spawnedPositions.RemoveAt(i);
