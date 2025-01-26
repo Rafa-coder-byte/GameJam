@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\GameJam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\playerwins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerwins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\randomobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerWins.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerWins.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWins.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Boss.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Boss.cs",
@@ -99,8 +99,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Boss.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T02:24:33.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T02:24:33.008Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RandomObjectSpawner.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:48:32.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:48:32.991Z"
             },
             {
               "$type": "Document",
@@ -125,18 +123,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Buble_Damage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:06:16.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T04:06:16.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TrashCounter.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TrashCounter.cs",
               "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\TrashCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T20:08:08.912Z",
               "EditorCaption": ""
@@ -163,8 +160,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T01:58:24.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T01:58:24.013Z"
             },
             {
               "$type": "Document",
@@ -176,8 +172,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:59:32.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:59:32.379Z"
             },
             {
               "$type": "Document",
@@ -189,8 +184,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:04:08.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:04:08.581Z"
             },
             {
               "$type": "Document",

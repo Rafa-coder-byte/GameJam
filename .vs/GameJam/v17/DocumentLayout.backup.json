@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GitHub\\GameJam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\playerwins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerwins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|d:\\github\\gamejam\\assets\\scripts\\playerwins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerwins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|Assembly-CSharp.csproj|D:\\GitHub\\GameJam\\assets\\scripts\\gestorbasura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,15 +78,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "PlayerWins.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerWins.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWins.cs",
               "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerWins.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerWins.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T14:52:56.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Boss.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Boss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:24:33.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandomObjectSpawner.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomObjectSpawner.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomObjectSpawner.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:48:32.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Buble_Damage.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Buble_Damage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Buble_Damage.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Buble_Damage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Buble_Damage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:06:16.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrashCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TrashCounter.cs",
+              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TrashCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T20:08:08.912Z",
               "EditorCaption": ""
             },
             {
@@ -103,46 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Boss.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Boss.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Boss.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Boss.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T02:24:33.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RandomObjectSpawner.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomObjectSpawner.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\RandomObjectSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RandomObjectSpawner.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:48:32.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Buble_Damage.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Buble_Damage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Buble_Damage.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Buble_Damage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Buble_Damage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:06:16.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
@@ -155,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -168,20 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrashCounter.cs",
-              "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TrashCounter.cs",
-              "ToolTip": "D:\\GitHub\\GameJam\\Assets\\Scripts\\TrashCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TrashCounter.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:08:08.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "D:\\GitHub\\GameJam\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",

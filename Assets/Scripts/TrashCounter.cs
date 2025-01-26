@@ -51,7 +51,7 @@ public class TrashCounter : MonoBehaviour
     private void FinalizarJuego()
     {
         Debug.Log("¡Has ganado el juego");
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
 
         // Llama al método para mostrar el texto de victoria
         GameManager gameManager = Object.FindFirstObjectByType<GameManager>();
