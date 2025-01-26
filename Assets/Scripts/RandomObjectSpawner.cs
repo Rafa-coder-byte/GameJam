@@ -15,6 +15,7 @@ public class RandomObjectSpawner : MonoBehaviour
     public int destroyed_garbage = 0;
     public TrashCounter trashcount;
     public bool boss_round = false;
+    public int cont;
 
     void Start()
     {
@@ -51,7 +52,7 @@ public class RandomObjectSpawner : MonoBehaviour
     }
     void Check_Garbage_Counter(){
         if(destroyed_garbage == numberOfObjects){
-            Application.Quit();
+            Time.timeScale = 0;
         }
     }
 
@@ -66,7 +67,7 @@ public class RandomObjectSpawner : MonoBehaviour
                 {
                     Destroy(spawnedObjects[i]);
                     destroyed_garbage += 1;
-                    Debug.Log(destroyed_garbage);
+                    Debug.Log(destroyed_garbage );
                     trashcount.IncrementTrashCount();
                     spawnedObjects.RemoveAt(i);
                     spawnedPositions.RemoveAt(i);
