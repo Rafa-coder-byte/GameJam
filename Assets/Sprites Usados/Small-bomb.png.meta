@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 759ad08ff556c1648bb00ac3f2033571
+guid: 0d8efa406dbfa534da41391f54e808ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5935426176695013278
-    second: 3vidas_0
-  - first:
-      213: 6972988948224186919
-    second: 3vidas_1
-  - first:
-      213: -4780517500741399248
-    second: 3vidas_2
+      213: 386223467436708144
+    second: Small-bomb_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3vidas_0
+      name: Small-bomb_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 11
-        height: 10
+        width: 138
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,50 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9f067419aede5250800000000000000
-      internalID: 5935426176695013278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3vidas_1
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 0
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72a90a1018805c060800000000000000
-      internalID: 6972988948224186919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3vidas_2
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 0
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03d45cd49a038adb0800000000000000
-      internalID: -4780517500741399248
+      spriteID: 0311c7482342c5500800000000000000
+      internalID: 386223467436708144
       vertices: []
       indices: 
       edges: []
@@ -178,10 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      3vidas_0: 5935426176695013278
-      3vidas_1: 6972988948224186919
-      3vidas_2: -4780517500741399248
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
