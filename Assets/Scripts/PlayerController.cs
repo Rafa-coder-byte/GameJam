@@ -5,6 +5,11 @@ public class PlayerController : MonoBehaviour
     private int score = 0;
     public TrashCounter trashCounter;
 
+    void Start()
+    {
+        trashCounter = FindFirstObjectByType<TrashCounter>(); 
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))

@@ -3,13 +3,14 @@ using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
     public GameObject player; 
-    public int maxHealth = 100;
-    private int currentHealth;
+    public int maxHealth ;
+    public int currentHealth;
     public TextMeshProUGUI vida;
     public bool died = false;
     void Start()
     {
         player = GameObject.Find("Personaje");
+        maxHealth = 200;
         currentHealth = maxHealth;
         vida.text = "Vida: " + currentHealth.ToString();
     }
@@ -34,4 +35,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if(!died) vida.text = "Vida: " + currentHealth.ToString();
     }
+    public int Get_Current_Health(){
+        return currentHealth;
+    } 
 }
