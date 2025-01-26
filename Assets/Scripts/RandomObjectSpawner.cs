@@ -6,8 +6,13 @@ public class RandomObjectSpawner : MonoBehaviour
     public GameObject objectToSpawn;
     public Vector2 areaMin;
     public Vector2 areaMax;
+<<<<<<< Updated upstream
     public int numberOfObjects = 10;
     public float deleteDistance = 2f; // Distancia para eliminar objetos
+=======
+    public int numberOfObjects;
+    public float deleteDistance = 0.3f; // Distancia para eliminar objetos
+>>>>>>> Stashed changes
     public List<Vector2> spawnedPositions = new List<Vector2>();
     private List<GameObject> spawnedObjects = new List<GameObject>();
     private Transform playerTransform;
@@ -16,7 +21,7 @@ public class RandomObjectSpawner : MonoBehaviour
     void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        numberOfObjects = 30;
+        numberOfObjects = 50;
         SpawnObjects();
     }
 
