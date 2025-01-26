@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     private int score = 0;
     public TrashCounter trashCounter;
+    public PlayerHealth playerHealth;
 
     void Update()
     {
@@ -37,6 +38,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Objeto recogido! Puntaje: " + score);
             Destroy(other.gameObject);
         }
+   
     }
 
     void OnDrawGizmosSelected()
