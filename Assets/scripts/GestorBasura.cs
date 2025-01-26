@@ -23,12 +23,16 @@ public class GestorDeBasura : MonoBehaviour
         if (trashCounter.TrashCount >= cantidadNecesariaParaAtaque)
         {
             ActivarAtaqueBoss();
+            Debug.Log("Se esta activando al Boss1");
+            // Reiniciar el contador de basura a 0
+            trashCounter.ResetTrashCount();
         }
     }
 
     // M�todo para activar el ataque del boss
     void ActivarAtaqueBoss()
     {
+        Debug.Log("Se esta activando al Boss2");
         boss.SetActive(true); // Activa el GameObject del boss
 
     }
