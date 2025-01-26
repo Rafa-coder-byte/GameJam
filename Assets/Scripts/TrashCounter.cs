@@ -6,6 +6,11 @@ public class TrashCounter : MonoBehaviour
     public TextMeshProUGUI trashText; // Cambiar a TextMeshProUGUI
     private int trashCount = 0;
 
+    public int TrashCount // Propiedad para acceder a trashCount
+    {
+        get { return trashCount; }
+    }
+
     void Start()
     {
         // Asegurarse de que el texto inicial se muestra
@@ -17,6 +22,13 @@ public class TrashCounter : MonoBehaviour
     {
         trashCount++;
         trashText.text = "Basura Recogida: " + trashCount;
+
+        // Notifica al GestorDeBasura para verificar si es hora de activar el boss
+        GestorDeBasura gestorDeBasura = GetComponent<GestorDeBasura>();
+        if (gestorDeBasura != null)
+        {
+            gestorDeBasura.VerificarYActivarBoss();
+        }
     }
 }
 
