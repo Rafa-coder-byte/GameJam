@@ -4,7 +4,7 @@ public class GestorDeBasura : MonoBehaviour
 {
     public int cantidadNecesariaParaAtaque = 30; // Ajusta seg�n tu necesidad
     public GameObject boss; // Asigna el boss en el Inspector
-    private TrashCounter trashCounter;
+    public TrashCounter trashCounter;
     private RandomObjectSpawner picked_garbage;
     private PlayerMovement player;
     

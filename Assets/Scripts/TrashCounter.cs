@@ -1,10 +1,10 @@
 using UnityEngine;
-using TMPro; // Asegúrate de tener esto para usar TextMeshPro
+using TMPro; // Asegï¿½rate de tener esto para usar TextMeshPro
 
 public class TrashCounter : MonoBehaviour
 {
     public TextMeshProUGUI trashText; // Cambiar a TextMeshProUGUI
-    private int trashCount = 0;
+    public int trashCount = 0;
     public bool ronda=false;
 
 
@@ -19,7 +19,7 @@ public class TrashCounter : MonoBehaviour
         get { return trashCount; }
     }
 
-    // Método para incrementar el contador de basura
+    // Mï¿½todo para incrementar el contador de basura
     public void IncrementTrashCount()
     {
         trashCount++;
@@ -49,7 +49,7 @@ public class TrashCounter : MonoBehaviour
 
     private void FinalizarJuego()
     {
-        Debug.Log("¡Has ganado el juego");
+        Debug.Log("ï¿½Has ganado el juego");
         Time.timeScale = 0;
     }
 
