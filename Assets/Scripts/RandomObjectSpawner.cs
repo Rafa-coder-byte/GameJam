@@ -15,6 +15,7 @@ public class RandomObjectSpawner : MonoBehaviour
     private Transform playerTransform;
     public int destroyed_garbage = 0;
     public TrashCounter trashcount;
+    public bool boss_round = false;
 
     void Start()
     {
@@ -25,8 +26,14 @@ public class RandomObjectSpawner : MonoBehaviour
 
     void Update()
     {
+       
         CheckDistanceToPlayer();
         Check_Garbage_Counter();
+    }
+    void Check_round(){
+        if(boss_round){
+            SpawnObjects();
+        }
     }
 
     void SpawnObjects()

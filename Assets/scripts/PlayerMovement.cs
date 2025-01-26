@@ -15,18 +15,21 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Obtener la entrada del jugador (teclas W, A, S, D o flechas)
-        if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) 
-        {
-            jugador.gameObject.transform.localScale = new Vector3(0.75f,0.75f,1);
-        }
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) 
-        {
-            jugador.gameObject.transform.localScale = new Vector3(-0.75f,0.75f,1);
-        }
+        
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
-
+        if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)){
+            jugador.transform.localScale =  new Vector3(0.75f , 0.75f,1); 
+        }
+        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
+            jugador.transform.localScale =  new Vector3(-0.75f , 0.75f,1); 
+        }
+        if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)){
+            jugador.transform.localScale =  new Vector3(0.75f , 0.75f,1); 
+        }
+        if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)){
+            jugador.transform.localScale =  new Vector3(0.75f , 0.75f,1); 
+        }
     }
 
     void FixedUpdate()

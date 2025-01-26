@@ -4,7 +4,7 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform player; // Referencia al transform del jugador
     public float smoothSpeed = 0.125f; // Velocidad de suavizado del seguimiento
-    public Vector3 offset; // Desplazamiento de la cámara
+    public Vector3 offset; // Desplazamiento de la cï¿½mara
 
     void LateUpdate()
     {

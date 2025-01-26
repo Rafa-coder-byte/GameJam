@@ -11,28 +11,7 @@ public class PlayerController : MonoBehaviour
         trashCounter = FindFirstObjectByType<TrashCounter>(); 
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            TryPickUpObject();
-        }
-    }
-
-    void TryPickUpObject()
-    {
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, 1f);
-        foreach (var hitCollider in hitColliders)
-        {
-            if (hitCollider.gameObject.CompareTag("Collectible"))
-            {
-                score++;
-                trashCounter.IncrementTrashCount();
-                Debug.Log("Objeto recogido! Puntaje: " + score);
-                hitCollider.gameObject.SetActive(false);
-            }
-        }
-    }
+    
 
     void OnTriggerEnter2D(Collider2D other)
     {
