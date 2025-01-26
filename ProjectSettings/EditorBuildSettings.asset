@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 9dd7b5b785135b3499ecd3c6c15605c3
   - enabled: 1
+    path: Assets/Scenes/Cinematics.unity
+    guid: 521881a587e50fa40bb13758f7d08a98
+  - enabled: 1
     path: Assets/Scenes/Arena y Mar.unity
     guid: 2eb8f1af9b225ed48a8cb5de4cae0c01
   m_configObjects: {}
