@@ -1,11 +1,12 @@
 using UnityEngine;
+
 public class Boss : MonoBehaviour
 {
     public float speed = 0.1f;
     public GameObject garbagePrefab;
     public float throwForce = 10f;
     public float throwCooldown = 2f;
-    public int garsbageDamge = 5; 
+    public int garbageDamage = 5;
     private Transform playerTransform;
     private Rigidbody2D rb;
     private float nextThrowTime;
@@ -15,6 +16,9 @@ public class Boss : MonoBehaviour
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         nextThrowTime = 0f;
+
+        // Desactiva el boss al iniciar el juego
+        gameObject.SetActive(false);
     }
 
     void Update()
@@ -39,15 +43,11 @@ public class Boss : MonoBehaviour
         {
             Vector2 throwDirection = (playerTransform.position - transform.position).normalized;
             GameObject garbage = Instantiate(garbagePrefab, transform.position, Quaternion.identity);
-            garbage.transform.localScale = new Vector3(0.5f,0.5f,0);
+            garbage.transform.localScale = new Vector3(0.5f, 0.5f, 0);
             Rigidbody2D garbageRb = garbage.GetComponent<Rigidbody2D>();
             garbageRb.AddForce(throwDirection * throwForce, ForceMode2D.Impulse);
-            
+
             nextThrowTime = Time.time + throwCooldown;
         }
     }
 }
-
-
-
-
