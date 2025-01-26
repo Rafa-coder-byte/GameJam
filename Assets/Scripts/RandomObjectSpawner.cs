@@ -6,7 +6,6 @@ public class RandomObjectSpawner : MonoBehaviour
     public GameObject objectToSpawn;
     public Vector2 areaMin;
     public Vector2 areaMax;
-
     public int numberOfObjects;
     public float deleteDistance = 0.3f; // Distancia para eliminar objetos
 

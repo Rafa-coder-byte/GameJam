@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3999d002c7dfcc24d8c8db41a76eba08
+guid: 5210b66f832b95245854bca305bf075d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Black Bubble_0: 837190003617482060
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

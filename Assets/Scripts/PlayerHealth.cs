@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     public Sprite halfHeart; // Sprite del coraz�n medio
     public Sprite emptyHeart; // Sprite del coraz�n vac�o
     public GameObject player;
+    public GameObject menuboton;
+    public TextMeshProUGUI gameover;
 
     void Start()
     {
@@ -34,7 +38,15 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    
+    public void Heal(float healAmount)
+    {
+        currentHealth += healAmount; // Suma la curaci�n a la salud actual
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth; // Aseg�rate de que no supere el m�ximo
+        }
+        UpdateHearts(); // Actualiza la visualizaci�n de los corazones
+    }
 
     void UpdateHearts()
     {
@@ -60,14 +72,9 @@ public class PlayerHealth : MonoBehaviour
 
     void PlayerDied()
     {
-        // Aqu� puedes manejar la l�gica de la muerte del jugador
+        menuboton.gameObject.SetActive(true);
+        gameover.gameObject.SetActive(true);
         Debug.Log("El jugador ha muerto!");
         player.gameObject.SetActive(false);
-
-        // Por ejemplo, reiniciar la escena actual
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-        // O mostrar un men� de Game Over
-        // Puedes implementar un m�todo para mostrar un men� de Game Over aqu�
     }
 }
