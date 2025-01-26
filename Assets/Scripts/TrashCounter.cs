@@ -6,6 +6,7 @@ public class TrashCounter : MonoBehaviour
     public TextMeshProUGUI trashText; // Cambiar a TextMeshProUGUI
     private int trashCount = 0;
     public bool ronda=false;
+    
 
 
     void Start()
@@ -51,6 +52,21 @@ public class TrashCounter : MonoBehaviour
     {
         Debug.Log("¡Has ganado el juego");
         Time.timeScale = 0;
+
+        // Llama al método para mostrar el texto de victoria
+        GameManager gameManager = Object.FindFirstObjectByType<GameManager>();
+        if (gameManager != null)
+        {
+            Debug.Log("Pa que salga el cartel");
+            gameManager.PlayerWins();
+        }
+        else
+        {
+            Debug.LogError("No se encontró el GameManager en la escena.");
+        }
+
+        
+
     }
 
 
