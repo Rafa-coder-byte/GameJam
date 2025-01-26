@@ -33,12 +33,14 @@ public class GestorDeBasura : MonoBehaviour
     void ActivarAtaqueBoss()
     {
         Debug.Log("Se esta activando al Boss2");
-        boss.SetActive(true); // Activa el GameObject del boss
+        boss.SetActive(true); 
+        // Activa el GameObject del boss
 
     }
     void Verify_Trash(){
         if(trashCounter.trashCount == picked_garbage.numberOfObjects){
             boss.SetActive(false);
+            
             
 
         }

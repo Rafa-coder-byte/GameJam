@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    public float speed = 0.1f;
+    public float speed = 2f;
     public GameObject garbagePrefab;
     public float throwForce = 10f;
     public float throwCooldown = 2f;

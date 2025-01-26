@@ -51,9 +51,9 @@ public class TrashCounter : MonoBehaviour
     private void FinalizarJuego()
     {
         Debug.Log("ï¿½Has ganado el juego");
-        Time.timeScale = 0;
+       // Time.timeScale = 0;
 
-        // Llama al método para mostrar el texto de victoria
+        // Llama al mï¿½todo para mostrar el texto de victoria
         GameManager gameManager = Object.FindFirstObjectByType<GameManager>();
         if (gameManager != null)
         {
@@ -62,7 +62,7 @@ public class TrashCounter : MonoBehaviour
         }
         else
         {
-            Debug.LogError("No se encontró el GameManager en la escena.");
+            Debug.LogError("No se encontrï¿½ el GameManager en la escena.");
         }
 
         
