@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class GarbageCollision : MonoBehaviour
 {
+    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -9,7 +11,7 @@ public class GarbageCollision : MonoBehaviour
             PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(5);
+                playerHealth.TakeDamage(1);
             }
             Destroy(gameObject);
         }

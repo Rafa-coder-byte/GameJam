@@ -6,19 +6,18 @@ public class Boss : MonoBehaviour
     public GameObject garbagePrefab;
     public float throwForce = 10f;
     public float throwCooldown = 2f;
-    public int garbageDamage = 5;
+    public int garbageDamage;
     private Transform playerTransform;
     private Rigidbody2D rb;
     private float nextThrowTime;
 
     void Start()
     {
+
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
-        nextThrowTime = 0f;
-
-        // Desactiva el boss al iniciar el juego
-        gameObject.SetActive(false);
+        nextThrowTime = 1f;
+        garbageDamage = 1;
     }
 
     void Update()
